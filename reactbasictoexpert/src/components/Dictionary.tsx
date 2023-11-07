@@ -52,7 +52,7 @@ function Dictionary() {
             />
             <input
                 type="file"
-                onChange={(e) => handleFileChange(e)}
+                onChange={(e) => handleFileChange(e)}               
             />
             <button onClick={fetchSynonyms}>Find Synonyms</button>
             {loading && <p>Loading...</p>}
